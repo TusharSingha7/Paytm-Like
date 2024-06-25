@@ -1,0 +1,13 @@
+
+.OuterSignup {
+    background-color: papayawhip;
+    display: grid;
+    justify-content: center;
+    margin-right: 28rem;
+    margin-left: 28rem;
+    height: 80vh;
+    border-radius: 20px;
+}
+.mainroot {
+    background-color: black;
+}
