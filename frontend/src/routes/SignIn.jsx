@@ -11,7 +11,7 @@ export function SignIn(){
     const navigate = useNavigate();
     const [username,setUname] = useState("");
     const [password,setPass] = useState("");
-    return <div>
+    return <div className="outerCard">
         <Heading heading={"SignIn"}/>
         <SubHeading subheading={"Enter your credentials to access your account"}/>
         <InputBox onChange={(e)=>{

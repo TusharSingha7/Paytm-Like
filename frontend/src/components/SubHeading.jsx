@@ -1,6 +1,6 @@
 
 export function SubHeading({subheading}){
-    return <div>
+    return <div className="subHeading">
         {subheading}
     </div>
 }

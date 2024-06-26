@@ -13,9 +13,9 @@ export function SignUp(){
     const [lastName,setLName] = useState("");
     const [username,setUame] = useState("");
     const [Pass,setPass] = useState("");
-    return <div className="OuterSignup"> 
+    return <div className="outerCard"> 
         <Heading heading={"SignUp"}/>
-        <SubHeading subheading={"Enter your details to create an account"}/>
+        <SubHeading subheading={"Enter your credentials to access your account"}/>
         <InputBox onChange={(e)=>{
             setFName(e.target.value);
         }} head={"First Name"} placeH={"Tushar"}/>

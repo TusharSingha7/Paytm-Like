@@ -1,6 +1,6 @@
 
 export function Heading({heading}){
-    return <div>
+    return <div className="heading">
         {heading}
     </div>
 }

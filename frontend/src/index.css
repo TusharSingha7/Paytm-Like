@@ -1,0 +1,24 @@
+
+input {
+    min-width: 250px;
+    min-height: 30px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-top: 1px solid rgb(246, 15, 15);
+    border-left: 1px solid rgb(246, 15, 15);
+    border-color: rgb(206, 199, 199);
+    margin: 10px;
+}
+button {
+    min-width: 255px;
+    min-height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+body {
+    background-color: rgb(137, 135, 135);
+    display: flex;
+    justify-content: center;
+}
