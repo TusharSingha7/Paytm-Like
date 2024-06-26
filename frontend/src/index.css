@@ -19,6 +19,17 @@ button {
 }
 body {
     background-color: rgb(137, 135, 135);
-    display: flex;
-    justify-content: center;
+    margin:0px;
 }
+/* body .innerRoot {
+    background-color: rgb(137, 135, 135);
+    margin: 0px;
+    min-height: 100vh;
+}
+body {
+    margin:0px;
+    min-height: 100vh;
+}
+#root {
+    min-height: 100vh;
+} */

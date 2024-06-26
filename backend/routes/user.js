@@ -12,10 +12,10 @@ const updateBody = zod.object({
     password : zod.string().optional()
 });
 const signupSchema = zod.object({
-    username : zod.string().email(),
+    username : zod.string().email().min(5).max(30),
     password : zod.string().min(6),
-    firstName : zod.string(),
-    lastName : zod.string()
+    firstName : zod.string().max(30),
+    lastName : zod.string().max(30)
 })
 const signinSchema = zod.object({
     username : zod.string().email(),

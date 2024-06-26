@@ -6,8 +6,10 @@ import { useState } from "react";
 export function SendMoney(){
     const [searchId,] = useSearchParams();
     const [amount,setAmount] = useState(0);
-    return <div>
+    const name = searchId.get("firstName");
+    return <div className="innerRoot"><div className="sendMoney">
         <h2>Send Money</h2>
+        <p>{name}</p>
         <h3>Amount in rupees</h3>
         <input placeholder="Enter Amount" onChange={(e)=>{
             setAmount(parseInt(e.target.value));
@@ -29,5 +31,5 @@ export function SendMoney(){
                 alert(err.response.data.msg);
             });
         }}/>
-    </div>
+    </div></div>
 }

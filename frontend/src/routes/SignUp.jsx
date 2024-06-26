@@ -13,7 +13,7 @@ export function SignUp(){
     const [lastName,setLName] = useState("");
     const [username,setUame] = useState("");
     const [Pass,setPass] = useState("");
-    return <div className="outerCard"> 
+    return<div className="innerRoot"><div className="outerCard"> 
         <Heading heading={"SignUp"}/>
         <SubHeading subheading={"Enter your credentials to access your account"}/>
         <InputBox onChange={(e)=>{
@@ -45,5 +45,6 @@ export function SignUp(){
         }
         }}/>
         <Footer context={"Already have an account ? "} where={"/signin"} body={"Login"}/>
+    </div>
     </div>
 }

@@ -11,7 +11,7 @@ export function SignIn(){
     const navigate = useNavigate();
     const [username,setUname] = useState("");
     const [password,setPass] = useState("");
-    return <div className="outerCard">
+    return <div className="innerRoot"><div className="outerCard">
         <Heading heading={"SignIn"}/>
         <SubHeading subheading={"Enter your credentials to access your account"}/>
         <InputBox onChange={(e)=>{
@@ -35,5 +35,5 @@ export function SignIn(){
         }
         }} title={"SignIn"}/>
         <Footer context={"Don't have an account ?"} where={"/signup"} body={"SingUp"}/>
-    </div>
+    </div></div>
 }
