@@ -34,6 +34,6 @@ export function SignIn(){
             alert("No User Exits with these credentials");
         }
         }} title={"SignIn"}/>
-        <Footer context={"Don't have an account ?"} where={"/signup"} body={"SingUp"}/>
+        <Footer context={"Don't have an account ?"} where={"/"} body={"SingUp"}/>
     </div></div>
 }
