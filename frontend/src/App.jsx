@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/signin" errorElement={<ErrorPage/>} element={<SignIn/>} />
-        <Route path="/signup" errorElement={<ErrorPage/>} element={<SignUp/>}/>
+        <Route path="/" errorElement={<ErrorPage/>} element={<SignUp/>}/>
         <Route path="/dashboard" errorElement={<ErrorPage/>} element={<Dashboard/>}/>
         <Route path="/send" errorElement={<ErrorPage/>} element={<SendMoney/>}/>
       </Routes>
